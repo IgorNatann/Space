@@ -1,8 +1,9 @@
 import React from 'react'
+import fotos from './fotos.json'
 import Tags from '../Tags'
 import styles from './Galeria.module.scss'
+
 import Cards from './Cards'
-import fotos from './fotos.json'
 
 export default function Galeria() {
   return (
