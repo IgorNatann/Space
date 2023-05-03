@@ -1,6 +1,7 @@
 import Cabecalho from "../../componentes/Cabecalho";
+import Galeria from "../../componentes/Galeria";
 import Menu from "../../componentes/Menu";
-import styles from "./PaginaInicial.module.scss"
+import styles from "./PaginaInicial.module.scss";
 
 import banner from "./banner.png"
 
@@ -17,6 +18,9 @@ export default function PaginaInicial(){
                     </div>
                 </section>
             </main>
+            <div className={styles.galeria}>    
+            <Galeria />
+            </div>
         </>
     )
 }
