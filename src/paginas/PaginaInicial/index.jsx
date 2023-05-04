@@ -6,6 +6,7 @@ import Menu from "componentes/Menu";
 import Populares from "componentes/Populares";
 
 import banner from "./banner.png"
+import Rodape from "componentes/Rodape";
 
 export default function PaginaInicial() {
     return (
@@ -23,6 +24,7 @@ export default function PaginaInicial() {
                     <Galeria />
                     <Populares />
                 </div>
+                <Rodape />
             </main>
         </>
     )
